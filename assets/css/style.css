@@ -18,3 +18,25 @@
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}.wine-card:hover .bottle-stage img{transform:none}}
 .icon-arrow{display:inline-block;width:19px;height:19px;flex-shrink:0;background:currentColor;-webkit-mask:url(../img/arrow.svg) center/contain no-repeat;mask:url(../img/arrow.svg) center/contain no-repeat}.icon-down-right{transform:rotate(90deg)}.icon-down{transform:rotate(135deg)}.icon-left{transform:rotate(225deg)}.icon-right{transform:rotate(45deg)}
 .section-heading>div:first-child>h2{margin-top:24px}.icon-up{transform:rotate(-45deg)}
+
+/* Local, supplied photographs: preserve complete bottles and readable labels. */
+.hero-visual[data-media="hero"] img{object-position:50% 58%}
+.visit-hero-art[data-media="visit"]>img{object-position:50% 60%}
+.bottle-stage[data-photograph]{background:#ddd0c0;margin-block:22px;height:440px}
+.bottle-stage[data-photograph]>img{width:100%;height:100%;max-width:100%;object-fit:contain}
+.wine-card:hover .bottle-stage[data-photograph]>img{transform:none}
+.bottle-stage[data-photograph] .wine-card__alternate{inset:0;width:100%;height:100%}
+.collection-full .bottle-stage[data-photograph]{height:510px}
+.gallery-frame.photo-story{display:grid;grid-template-columns:1fr 1fr;background:var(--paper);align-items:center;overflow:hidden}
+.gallery-frame.photo-story>img{object-fit:contain;padding:22px;height:clamp(350px,42vw,660px)}
+.photo-story-copy{padding:40px 45px 65px;min-width:0}
+.photo-story-title{font-family:var(--serif);font-size:clamp(35px,4.8vw,76px);letter-spacing:-.05em;line-height:1.12;margin-top:28px;overflow-wrap:break-word}
+.photo-story-title em{color:var(--burgundy)}
+.photo-story-year{font-family:var(--serif);font-style:italic;font-size:40px;color:var(--burgundy);margin-top:22px}
+.no-js-photo-grid{display:grid;grid-template-columns:1fr 1fr;gap:24px;margin-top:28px}
+.no-js-photo-grid img{height:480px;width:100%;object-fit:contain;background:var(--paper)}
+.no-js-photo-grid figcaption{font-size:11px;margin-top:10px}
+.route-figure img{width:100%;max-width:800px;height:auto;max-height:none}
+.route-figure figcaption{max-width:800px;margin-inline:auto;font-size:11px;line-height:1.8}
+@media(min-width:1600px){.bottle-stage[data-photograph]{height:520px}.collection-full .bottle-stage[data-photograph]{height:590px}}
+@media(max-width:760px){.bottle-stage[data-photograph]{height:390px;margin-block:20px}.collection-full .bottle-stage[data-photograph]{height:430px}.gallery-frame.photo-story{grid-template-columns:1fr}.gallery-frame.photo-story>img{height:390px;padding:18px}.photo-story-copy{padding:8px 24px 62px}.photo-story-title{font-size:36px;margin-top:14px}.photo-story-year{font-size:28px;margin-top:12px}.photo-story-copy .eyebrow{font-size:8px}.no-js-photo-grid{grid-template-columns:1fr}.no-js-photo-grid img{height:420px}.gallery-frame figcaption{font-size:7px}.route-figure figcaption{font-size:10px}}
