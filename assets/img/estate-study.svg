@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="1000" viewBox="0 0 1400 1000" role="img" aria-labelledby="title desc"><title id="title">Свет и архитектура</title><desc id="desc">Авторская абстрактная архитектурная иллюстрация, а не изображение существующего здания VinoTorre.</desc><defs><filter id="paper" x="0" y="0" width="100%" height="100%"><feTurbulence type="fractalNoise" baseFrequency=".68" numOctaves="3" stitchTiles="stitch"/><feColorMatrix type="saturate" values="0"/><feComponentTransfer><feFuncA type="linear" slope=".16"/></feComponentTransfer><feBlend in="SourceGraphic" mode="multiply"/></filter><linearGradient id="wall" x2="1" y2=".7"><stop stop-color="#d6bd92"/><stop offset="1" stop-color="#c8a87d"/></linearGradient><linearGradient id="shade" x2=".8" y2="1"><stop stop-color="#726451"/><stop offset="1" stop-color="#a28c69"/></linearGradient><linearGradient id="light" x2="0" y2="1"><stop stop-color="#e9d6b5"/><stop offset="1" stop-color="#d7bb8d"/></linearGradient></defs>
+<path fill="#dcd2b8" d="M0 0H1400V1000H0Z"/><path d="M0 614L1400 522V1000H0Z" fill="#c7ab81"/>
+<path d="M242 83H1400V745L242 884Z" fill="url(#wall)"/><path d="M242 83L156 163V885H242Z" fill="#ad8f66"/><path d="M242 82H1400V115H242Z" fill="#e3cfa9"/>
+<path d="M386 807V367C386 228 590 228 590 367V780Z" fill="url(#shade)"/>
+<path d="M718 762V339C718 207 912 207 912 339V738Z" fill="url(#shade)"/>
+<path d="M1045 722V310C1045 185 1230 185 1230 310V699Z" fill="url(#shade)"/>
+<path d="M438 798V373C438 285 530 285 530 373V786Z" fill="url(#light)"/>
+<path d="M765 756V344C765 260 854 260 854 344V745Z" fill="url(#light)"/>
+<path d="M1090 717V316C1090 239 1173 239 1173 316V707Z" fill="url(#light)"/>
+<path d="M386 807L699 1000H978L590 780Z" fill="#8d7c60" opacity=".7"/><path d="M718 762L1107 1000H1380L912 738Z" fill="#8d7c60" opacity=".7"/><path d="M1045 722L1400 922V781L1230 699Z" fill="#8d7c60" opacity=".7"/>
+<path d="M240 884L1400 745M11 1000L1400 826M700 1000L1024 790" stroke="#9e8767" stroke-width="2" opacity=".5"/>
+<path d="M291 79V877M653 90V838M985 90V799M1302 90V760" fill="none" stroke="#f0d8af" opacity=".45" stroke-width="3"/>
+<path d="M-50 825C109 645 73 442 143 242" stroke="#585940" stroke-width="18" fill="none"/><path d="M118 365Q37 285-10 276M110 398Q214 297 248 256M85 504Q-1 441-42 429" stroke="#585940" stroke-width="10" fill="none"/>
+<g fill="#666f4b"><ellipse cx="123" cy="213" rx="126" ry="65" transform="rotate(-14 123 213)"/><ellipse cx="16" cy="270" rx="122" ry="60" transform="rotate(22 16 270)"/><ellipse cx="232" cy="265" rx="125" ry="60" transform="rotate(-26 232 265)"/><ellipse cx="46" cy="386" rx="122" ry="49" transform="rotate(-18 46 386)"/><ellipse cx="-10" cy="461" rx="100" ry="45" transform="rotate(16 -10 461)"/></g>
+<g fill="#92916a" opacity=".7"><ellipse cx="136" cy="199" rx="97" ry="32" transform="rotate(-14 136 199)"/><ellipse cx="241" cy="252" rx="94" ry="30" transform="rotate(-26 241 252)"/><ellipse cx="36" cy="373" rx="87" ry="27" transform="rotate(-18 36 373)"/></g>
+<path d="M0 809Q166 861 314 1000H0Z" fill="#777453" opacity=".4"/><path fill="#9e7b50" opacity=".13" filter="url(#paper)" d="M0 0H1400V1000H0Z"/></svg>
